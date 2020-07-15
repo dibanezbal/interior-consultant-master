@@ -2,10 +2,9 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 30px 55px;
     box-sizing: border-box;
     background: #181719;
-    padding: 50px 85px;
     color: #FFF;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -23,11 +22,18 @@ nav ul {
     list-style-type: none;
 }
 
+nav > ul > li {
+    margin-left: 60px;
+}
+
 a {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    padding: 8px;
     color: #FFF;
+}
+
+.active-link {
+    font-weight: bold;
 }
 
 header > a {
@@ -35,11 +41,49 @@ header > a {
     font-family: 'Crimson Pro', serif;
 }
 
+main {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+}
+
 section a{
     display: flex;
     align-items: center;
+    font-size: 14px;
+    font-weight: 600;
 }
+
+section p {
+    font-weight: 200;
+    font-size: 20px;
+    margin: 35px 0;
+}
+
+figure {
+    margin: 0;
+    width: 60%;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Margin and Padding*/
 
 .ml-15 {
     margin-left: 15px;
+}
+
+.p-8 {
+    padding: 8px;
 }

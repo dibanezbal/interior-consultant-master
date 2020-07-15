@@ -1,2 +1,2 @@
 # interior-consultant-master
-dev challenge
+A Frontend challenge from DevChallenges.io
