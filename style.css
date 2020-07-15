@@ -23,7 +23,7 @@ nav ul {
 }
 
 nav > ul > li {
-    margin-left: 60px;
+    margin-left: 75px;
 }
 
 a {
@@ -70,16 +70,16 @@ section p {
 
 figure {
     margin: 0;
-    width: 60%;
+    width: 55%;
 }
 
 article {
     background: #181719;
-    width: 400px;
-    height: 150px;
+    width: 330px;
+    height: 144px;
     position: absolute;
-    right: 50px;
-    bottom: 30px;
+    right: 20px;
+    bottom: -116px;
     padding: 20px;
 }
 
@@ -87,32 +87,39 @@ article img {
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    margin-right: 20px;
 }
 
 article h2 {
     font-size: 14px;
+    margin: 0;
+    font-weight: 500;
 }
 
 article h3 {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 400;
     color: #828282;
+    margin: 5px 0 0 0;
 }
 
 article p {
     font-family: 'Lora', serif;
+    font-size: 24px;
+    width: 230px;
 }
 
 footer {
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* Toolbox */
 
-.flex {
+.flex-title-card {
     display: flex;
+    align-items: center;
 }
 
 .ml-15 {
